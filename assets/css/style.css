@@ -4,14 +4,17 @@
     background-color: #0074B7;
     color: white; 
     text-align: center;
+    margin: 18px 12px;
+    padding: 10px;
 }
 #body{
     display: inline-grid;
 }
-#body input,#head{
+#body input{
     width: 800px;
     padding: 10px;
     margin: 18px 12px;
+    font-size: 15px;
 }
 #body button{
     width: min-content;
