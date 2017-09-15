@@ -39,7 +39,11 @@ $.ajax({
          $('#'+i).append("<div>"+articles[i].snippet+"</div>");
          $('#'+i).append("<a href"+articles[i].web_url+">"+articles[i].web_url+"</a>");
    }
-
 });
  });
+$("#clear").click(function(){
+  $("input[type=text]").val('');
+});
+
+
  });
