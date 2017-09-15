@@ -4,6 +4,9 @@ var numResults = 0;
 var startYear = 0;
 var endYear = 0;
 $("document").ready(function(){
+$("input[name='Number']").click(function(){
+$("input[name='Number']").val('');
+});
 $("#search").click(function(){
   console.log("you here");
 search=$("input[name='search']").val();
