@@ -40,7 +40,7 @@ $.ajax({
         
          $('#result').append("<div id="+i+">"+"<p class='arti'>"+(i+1)+"</p>"+articles[i].headline.main+"</div>");
          $('#'+i).append("<div>"+articles[i].snippet+"</div>");
-         $('#'+i).append("<a href"+articles[i].web_url+">"+articles[i].web_url+"</a>");
+         $('#'+i).append("<a href="+articles[i].web_url+">"+articles[i].web_url+"</a>");
    }
 });
  });
